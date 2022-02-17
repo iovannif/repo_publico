@@ -757,7 +757,14 @@ vemos que tenemos el css en local
     uno es la extension de github para vsc, el largoº
     el otro es el log de github, el corto
 
-
+--------------------
+-repo github
+-fork
+-clon fork
+-modificar local
+-push fork
+-pull request
+-merge a original
 
 
 
@@ -798,6 +805,13 @@ fork
 +pull ya se puede hacer una vez vinculado
 +se puede restore rama en github
 +lo que hace es otra rama, con el nombre del local, sube a una rama con el mismo nombre
++si clonas ya un repo remto con archivos, ya trae como main, y podes sincronizar porque coiciden
++mismo nombre, rama local a remota
++para hacer clon no necesitar estar en un repo, palette
++cuando es un repo vacio, creado de 0 en github, todavia no tiene rama,
+al estar vacio, sin rama, no se puede sincronizar, hacemos un push
+y toma esta rama, master en remoto
+
 
 ____________________________________________________________________________
 git config --global user.email "francoio04@hotmail.com" - registrarse a git
